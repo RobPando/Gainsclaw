@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D427811F1D36A78B00B905B7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D427811E1D36A78B00B905B7 /* MapKit.framework */; };
 		D4536AE01D35C388009C5946 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4536ADF1D35C388009C5946 /* AppDelegate.swift */; };
 		D4536AE21D35C388009C5946 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4536AE11D35C388009C5946 /* MasterViewController.swift */; };
 		D4536AE41D35C388009C5946 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4536AE31D35C388009C5946 /* DetailViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D427811E1D36A78B00B905B7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		D4536ADC1D35C388009C5946 /* Gainsclaw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gainsclaw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4536ADF1D35C388009C5946 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4536AE11D35C388009C5946 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D427811F1D36A78B00B905B7 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +90,7 @@
 		D4536AD31D35C388009C5946 = {
 			isa = PBXGroup;
 			children = (
+				D427811E1D36A78B00B905B7 /* MapKit.framework */,
 				D4536ADE1D35C388009C5946 /* Gainsclaw */,
 				D4536AF51D35C388009C5946 /* GainsclawTests */,
 				D4536B001D35C388009C5946 /* GainsclawUITests */,
@@ -208,6 +212,11 @@
 				TargetAttributes = {
 					D4536ADB1D35C388009C5946 = {
 						CreatedOnToolsVersion = 7.2;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					D4536AF11D35C388009C5946 = {
 						CreatedOnToolsVersion = 7.2;
@@ -504,6 +513,7 @@
 				D4536B081D35C388009C5946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4536B091D35C388009C5946 /* Build configuration list for PBXNativeTarget "GainsclawTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +522,7 @@
 				D4536B0B1D35C388009C5946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4536B0C1D35C388009C5946 /* Build configuration list for PBXNativeTarget "GainsclawUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +531,7 @@
 				D4536B0E1D35C388009C5946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
