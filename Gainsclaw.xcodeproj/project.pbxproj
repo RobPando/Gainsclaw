@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4536AE01D35C388009C5946 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4536ADF1D35C388009C5946 /* AppDelegate.swift */; };
+		D4536AE21D35C388009C5946 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4536AE11D35C388009C5946 /* MasterViewController.swift */; };
+		D4536AE41D35C388009C5946 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4536AE31D35C388009C5946 /* DetailViewController.swift */; };
+		D4536AE71D35C388009C5946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4536AE51D35C388009C5946 /* Main.storyboard */; };
+		D4536AE91D35C388009C5946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4536AE81D35C388009C5946 /* Assets.xcassets */; };
+		D4536AEC1D35C388009C5946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4536AEA1D35C388009C5946 /* LaunchScreen.storyboard */; };
+		D4536AF71D35C388009C5946 /* GainsclawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4536AF61D35C388009C5946 /* GainsclawTests.swift */; };
+		D4536B021D35C388009C5946 /* GainsclawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4536B011D35C388009C5946 /* GainsclawUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4536AF31D35C388009C5946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4536AD41D35C388009C5946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4536ADB1D35C388009C5946;
+			remoteInfo = Gainsclaw;
+		};
+		D4536AFE1D35C388009C5946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4536AD41D35C388009C5946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4536ADB1D35C388009C5946;
+			remoteInfo = Gainsclaw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4536ADC1D35C388009C5946 /* Gainsclaw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gainsclaw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4536ADF1D35C388009C5946 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4536AE11D35C388009C5946 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		D4536AE31D35C388009C5946 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D4536AE61D35C388009C5946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4536AE81D35C388009C5946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4536AEB1D35C388009C5946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4536AED1D35C388009C5946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4536AF21D35C388009C5946 /* GainsclawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GainsclawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4536AF61D35C388009C5946 /* GainsclawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainsclawTests.swift; sourceTree = "<group>"; };
+		D4536AF81D35C388009C5946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4536AFD1D35C388009C5946 /* GainsclawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GainsclawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4536B011D35C388009C5946 /* GainsclawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainsclawUITests.swift; sourceTree = "<group>"; };
+		D4536B031D35C388009C5946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4536AD91D35C388009C5946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4536AEF1D35C388009C5946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4536AFA1D35C388009C5946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4536AD31D35C388009C5946 = {
+			isa = PBXGroup;
+			children = (
+				D4536ADE1D35C388009C5946 /* Gainsclaw */,
+				D4536AF51D35C388009C5946 /* GainsclawTests */,
+				D4536B001D35C388009C5946 /* GainsclawUITests */,
+				D4536ADD1D35C388009C5946 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4536ADD1D35C388009C5946 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4536ADC1D35C388009C5946 /* Gainsclaw.app */,
+				D4536AF21D35C388009C5946 /* GainsclawTests.xctest */,
+				D4536AFD1D35C388009C5946 /* GainsclawUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4536ADE1D35C388009C5946 /* Gainsclaw */ = {
+			isa = PBXGroup;
+			children = (
+				D4536ADF1D35C388009C5946 /* AppDelegate.swift */,
+				D4536AE11D35C388009C5946 /* MasterViewController.swift */,
+				D4536AE31D35C388009C5946 /* DetailViewController.swift */,
+				D4536AE51D35C388009C5946 /* Main.storyboard */,
+				D4536AE81D35C388009C5946 /* Assets.xcassets */,
+				D4536AEA1D35C388009C5946 /* LaunchScreen.storyboard */,
+				D4536AED1D35C388009C5946 /* Info.plist */,
+			);
+			path = Gainsclaw;
+			sourceTree = "<group>";
+		};
+		D4536AF51D35C388009C5946 /* GainsclawTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4536AF61D35C388009C5946 /* GainsclawTests.swift */,
+				D4536AF81D35C388009C5946 /* Info.plist */,
+			);
+			path = GainsclawTests;
+			sourceTree = "<group>";
+		};
+		D4536B001D35C388009C5946 /* GainsclawUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4536B011D35C388009C5946 /* GainsclawUITests.swift */,
+				D4536B031D35C388009C5946 /* Info.plist */,
+			);
+			path = GainsclawUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4536ADB1D35C388009C5946 /* Gainsclaw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4536B061D35C388009C5946 /* Build configuration list for PBXNativeTarget "Gainsclaw" */;
+			buildPhases = (
+				D4536AD81D35C388009C5946 /* Sources */,
+				D4536AD91D35C388009C5946 /* Frameworks */,
+				D4536ADA1D35C388009C5946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gainsclaw;
+			productName = Gainsclaw;
+			productReference = D4536ADC1D35C388009C5946 /* Gainsclaw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4536AF11D35C388009C5946 /* GainsclawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4536B091D35C388009C5946 /* Build configuration list for PBXNativeTarget "GainsclawTests" */;
+			buildPhases = (
+				D4536AEE1D35C388009C5946 /* Sources */,
+				D4536AEF1D35C388009C5946 /* Frameworks */,
+				D4536AF01D35C388009C5946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4536AF41D35C388009C5946 /* PBXTargetDependency */,
+			);
+			name = GainsclawTests;
+			productName = GainsclawTests;
+			productReference = D4536AF21D35C388009C5946 /* GainsclawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4536AFC1D35C388009C5946 /* GainsclawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4536B0C1D35C388009C5946 /* Build configuration list for PBXNativeTarget "GainsclawUITests" */;
+			buildPhases = (
+				D4536AF91D35C388009C5946 /* Sources */,
+				D4536AFA1D35C388009C5946 /* Frameworks */,
+				D4536AFB1D35C388009C5946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4536AFF1D35C388009C5946 /* PBXTargetDependency */,
+			);
+			name = GainsclawUITests;
+			productName = GainsclawUITests;
+			productReference = D4536AFD1D35C388009C5946 /* GainsclawUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4536AD41D35C388009C5946 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Aestheticruz;
+				TargetAttributes = {
+					D4536ADB1D35C388009C5946 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D4536AF11D35C388009C5946 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D4536ADB1D35C388009C5946;
+					};
+					D4536AFC1D35C388009C5946 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D4536ADB1D35C388009C5946;
+					};
+				};
+			};
+			buildConfigurationList = D4536AD71D35C388009C5946 /* Build configuration list for PBXProject "Gainsclaw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4536AD31D35C388009C5946;
+			productRefGroup = D4536ADD1D35C388009C5946 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4536ADB1D35C388009C5946 /* Gainsclaw */,
+				D4536AF11D35C388009C5946 /* GainsclawTests */,
+				D4536AFC1D35C388009C5946 /* GainsclawUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4536ADA1D35C388009C5946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4536AEC1D35C388009C5946 /* LaunchScreen.storyboard in Resources */,
+				D4536AE91D35C388009C5946 /* Assets.xcassets in Resources */,
+				D4536AE71D35C388009C5946 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4536AF01D35C388009C5946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4536AFB1D35C388009C5946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4536AD81D35C388009C5946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4536AE41D35C388009C5946 /* DetailViewController.swift in Sources */,
+				D4536AE21D35C388009C5946 /* MasterViewController.swift in Sources */,
+				D4536AE01D35C388009C5946 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4536AEE1D35C388009C5946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4536AF71D35C388009C5946 /* GainsclawTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4536AF91D35C388009C5946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4536B021D35C388009C5946 /* GainsclawUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4536AF41D35C388009C5946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4536ADB1D35C388009C5946 /* Gainsclaw */;
+			targetProxy = D4536AF31D35C388009C5946 /* PBXContainerItemProxy */;
+		};
+		D4536AFF1D35C388009C5946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4536ADB1D35C388009C5946 /* Gainsclaw */;
+			targetProxy = D4536AFE1D35C388009C5946 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4536AE51D35C388009C5946 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4536AE61D35C388009C5946 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4536AEA1D35C388009C5946 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4536AEB1D35C388009C5946 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4536B041D35C388009C5946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4536B051D35C388009C5946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4536B071D35C388009C5946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gainsclaw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aestheticruz.Gainsclaw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4536B081D35C388009C5946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gainsclaw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aestheticruz.Gainsclaw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D4536B0A1D35C388009C5946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GainsclawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aestheticruz.GainsclawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gainsclaw.app/Gainsclaw";
+			};
+			name = Debug;
+		};
+		D4536B0B1D35C388009C5946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GainsclawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aestheticruz.GainsclawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gainsclaw.app/Gainsclaw";
+			};
+			name = Release;
+		};
+		D4536B0D1D35C388009C5946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GainsclawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aestheticruz.GainsclawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gainsclaw;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D4536B0E1D35C388009C5946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GainsclawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aestheticruz.GainsclawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gainsclaw;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4536AD71D35C388009C5946 /* Build configuration list for PBXProject "Gainsclaw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4536B041D35C388009C5946 /* Debug */,
+				D4536B051D35C388009C5946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4536B061D35C388009C5946 /* Build configuration list for PBXNativeTarget "Gainsclaw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4536B071D35C388009C5946 /* Debug */,
+				D4536B081D35C388009C5946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4536B091D35C388009C5946 /* Build configuration list for PBXNativeTarget "GainsclawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4536B0A1D35C388009C5946 /* Debug */,
+				D4536B0B1D35C388009C5946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4536B0C1D35C388009C5946 /* Build configuration list for PBXNativeTarget "GainsclawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4536B0D1D35C388009C5946 /* Debug */,
+				D4536B0E1D35C388009C5946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4536AD41D35C388009C5946 /* Project object */;
+}
