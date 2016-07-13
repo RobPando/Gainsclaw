@@ -15,6 +15,9 @@
 		D4536AEC1D35C388009C5946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4536AEA1D35C388009C5946 /* LaunchScreen.storyboard */; };
 		D4536AF71D35C388009C5946 /* GainsclawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4536AF61D35C388009C5946 /* GainsclawTests.swift */; };
 		D4536B021D35C388009C5946 /* GainsclawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4536B011D35C388009C5946 /* GainsclawUITests.swift */; };
+		D4536B101D35C3E7009C5946 /* APIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4536B0F1D35C3E7009C5946 /* APIProtocol.swift */; };
+		D4536B121D35D958009C5946 /* ExerciseSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4536B111D35D958009C5946 /* ExerciseSet.swift */; };
+		D4536B141D35DC28009C5946 /* GymVenue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4536B131D35DC28009C5946 /* GymVenue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		D4536AFD1D35C388009C5946 /* GainsclawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GainsclawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4536B011D35C388009C5946 /* GainsclawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainsclawUITests.swift; sourceTree = "<group>"; };
 		D4536B031D35C388009C5946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4536B0F1D35C3E7009C5946 /* APIProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIProtocol.swift; sourceTree = "<group>"; };
+		D4536B111D35D958009C5946 /* ExerciseSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseSet.swift; sourceTree = "<group>"; };
+		D4536B131D35DC28009C5946 /* GymVenue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GymVenue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				D4536ADF1D35C388009C5946 /* AppDelegate.swift */,
 				D4536AE11D35C388009C5946 /* MasterViewController.swift */,
 				D4536AE31D35C388009C5946 /* DetailViewController.swift */,
+				D4536B0F1D35C3E7009C5946 /* APIProtocol.swift */,
+				D4536B111D35D958009C5946 /* ExerciseSet.swift */,
+				D4536B131D35DC28009C5946 /* GymVenue.swift */,
 				D4536AE51D35C388009C5946 /* Main.storyboard */,
 				D4536AE81D35C388009C5946 /* Assets.xcassets */,
 				D4536AEA1D35C388009C5946 /* LaunchScreen.storyboard */,
@@ -259,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4536B121D35D958009C5946 /* ExerciseSet.swift in Sources */,
+				D4536B101D35C3E7009C5946 /* APIProtocol.swift in Sources */,
 				D4536AE41D35C388009C5946 /* DetailViewController.swift in Sources */,
 				D4536AE21D35C388009C5946 /* MasterViewController.swift in Sources */,
 				D4536AE01D35C388009C5946 /* AppDelegate.swift in Sources */,
+				D4536B141D35DC28009C5946 /* GymVenue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Gainsclaw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Aestheticruz.Gainsclaw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Gainsclaw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Aestheticruz.Gainsclaw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
