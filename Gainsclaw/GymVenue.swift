@@ -21,4 +21,7 @@ struct Location {
 
 struct GymVenue {
     //TODO: Fill in the data to obtain the gyms around according to Foursquare JSON
+    init(dict: [String: String]){
+        
+    }
 }

@@ -102,6 +102,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Np-mb-o39">
+                                <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                <color key="backgroundColor" red="0.87689393939393945" green="0.25127125938276945" blue="0.19495922489700096" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="22"/>
+                                <state key="normal" title="GRAB A ROUTINE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="U6i-NC-0rl" kind="show" id="I38-hy-6cs"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2VV-PE-SzO">
                                 <rect key="frame" x="0.0" y="477" width="600" height="66"/>
                                 <color key="backgroundColor" red="0.040524408169999998" green="0.078423324330000002" blue="0.44758128159999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -115,17 +126,6 @@
                                 </state>
                                 <connections>
                                     <segue destination="fDN-UL-hEO" kind="show" id="49e-31-Cbb"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Np-mb-o39">
-                                <rect key="frame" x="200" y="200" width="200" height="200"/>
-                                <color key="backgroundColor" red="0.87689393939393945" green="0.25127125938276945" blue="0.19495922489700096" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="22"/>
-                                <state key="normal" title="GRAB A ROUTINE">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="U6i-NC-0rl" kind="show" id="I38-hy-6cs"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -391,6 +391,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="6S0-TO-JiA"/>
-        <segue reference="Krs-oo-wfo"/>
+        <segue reference="3w0-9A-h9M"/>
     </inferredMetricsTieBreakers>
 </document>
